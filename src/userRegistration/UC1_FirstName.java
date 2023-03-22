@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
  public class UC1_FirstName {
 
   public void firstName(){
-   Pattern newpat = Pattern.compile("[A-Za-z]{6,}");
+   Pattern newpat = Pattern.compile("[A-Za-z]{3,}");
    Matcher newmat = newpat.matcher("Aswini");
    Boolean bool = newmat.matches();
    System.out.println(bool);
